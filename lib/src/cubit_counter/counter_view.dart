@@ -21,8 +21,8 @@ class CounterView extends StatelessWidget {
                     return const CircularProgressIndicator();
                   } else if (state is CounterSuccessState) {
                     return Text('${cubit.counter}');
-                  }
-                  return const Text('data');
+                  }else{return const Text('data');}
+                  
                 }),
             ElevatedButton(
                 onPressed: () {

@@ -11,6 +11,7 @@ class ListnameView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print ('aaaaaaaa');
     return Scaffold(
         body: SafeArea(
       child: Padding(
